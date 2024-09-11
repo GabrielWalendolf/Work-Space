@@ -106,7 +106,51 @@ print("Vetor:", num)
 print("Maior número:", maior)
 print("Posição do maior número:", pos)
 """
+"""
+#8.Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores lidos na ordem inversa.
+num = np.array([])
+for i in range (6):
+    n = int(input(f"Informe um número {i+1}: "))
+    num=np.append(num,n)
+num = num[::-1]
+print(num)
+"""
+"""
+#9.Crie um programa que lê 6 valores inteiros pares e, em seguida, mostre na tela os valores lidos na ordem inversa.
 
+num = np.array([])
+for i in range (6):
+    n = int(input(f"Informe um número par{i+1}: "))
+    if n % 2 != 0:
+        n = int(input("digite um número par: "))
+        if n % 2 == 0:
+            num=np.append(num,n)
+    elif n % 2 == 0:
+        num=np.append(num,n)
+num = num[::-1]
+print(num)
+"""
+"""
+#10.Faça um programa para ler a nota da prova de 15 alunos e armazene num vetor, calcule e imprima a média geral.
+num = np.array([])
+media= 0
+for i in range (15):
+    n = int(input(f"Informe a nota do aluno {i+1}: "))
+    num=np.append(num,n)
+    media += num[i]
+media=media/15
+print(media)
+"""
+"""
+#11.Faça um programa que preencha um vetor com 10 números reais, calcule e mostre a quantidade de números negativos e a soma dos números positivos desse vetor.
+num = np.array([float(input(f"Informe o {i+1}º número: ")) for i in range(10)])
+n=num[num<0]
+p=num[num>0]
+negativos=len(n)
+positivos=np.sum(p)
+print(f"Quantidade de números negativos {negativos}")
+print(f"A soma dos números positivos {positivos}")
+"""
 
 
 
