@@ -68,9 +68,28 @@ indices_pares = np.where(vetor % 2 == 0)[0]
 print(f"Indices dos números pares: {indices_pares}")
 print(f"Números pares encontrados: {vetor[indices_pares]}")
 """
-
+"""
 #6.Faça um programa que receba do usuário um vetor com 10 posições. Em seguida deverá ser impresso o maior e o menor elemento do vetor.
+num = np.array([])
 
+menor=0
+maior=0
+
+for i in range (10):
+    n = int(input("Informe um número: "))
+    if maior == 0:
+        maior = n
+    if menor == 0:
+        menor = n
+    
+    if n > maior:
+        maior = n
+    if n < menor:
+        menor = n
+    num=np.append(num,n)
+print(menor)
+print(maior)
+"""
 
 
 
