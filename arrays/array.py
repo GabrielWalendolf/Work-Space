@@ -90,9 +90,22 @@ for i in range (10):
 print(menor)
 print(maior)
 """
-
-
-
+"""
+#7.Escreva um programa que leia 10 números inteiros e os armazene em um vetor. Imprima o vetor, o maior elemento e a posição que ele se encontra.
+num = np.array([])
+maior=0
+for i in range (10):
+    n = int(input(f"Informe um número {i+1}: "))
+    if maior == 0:
+        maior = n
+    if n > maior:
+        maior = n
+    num=np.append(num,n)
+    pos = np.where(num == maior)[0]
+print("Vetor:", num)
+print("Maior número:", maior)
+print("Posição do maior número:", pos)
+"""
 
 
 
