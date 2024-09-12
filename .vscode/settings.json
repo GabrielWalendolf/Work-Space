@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/sites/site_pet/index.html"
+    "livePreview.defaultPreviewPath": "/sites/site_pet/index.html",
+    "files.autoSave": "onWindowChange"
 }
