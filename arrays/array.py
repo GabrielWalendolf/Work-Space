@@ -152,10 +152,13 @@ print(f"Quantidade de números negativos {negativos}")
 print(f"A soma dos números positivos {positivos}")
 """
 
+#12.Escrever um programa que lê um vetor com 20 números inteiros e os imprime na tela. Troque, a seguir, o 1º elemento com o último, o 2º com o penúltimo etc., até o 10º com o 11º, e imprima o vetor modificado.
 
-
-
-
+num = np.array([int(input(f"Informe o {i+1}º número: ")) for i in range(20)])
+num1=[]
+for i in range (10):
+    num1[i]=num[i]
+ 
 
 
 
