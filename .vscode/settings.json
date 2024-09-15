@@ -1,4 +1,5 @@
 {
     "livePreview.defaultPreviewPath": "/sites/site_pet/index.html",
-    "files.autoSave": "onWindowChange"
+    "files.autoSave": "onWindowChange",
+    "editor.fontLigatures": false
 }

@@ -1,6 +1,6 @@
-import numpy as np #usar np para chamar a codificação de numpy
+import numpy as np
 import array as arr
-"""
+
 #1.Faça um programa que possua um vetor denominado A que armazene 6 números inteiros. O programa deve executar os seguintes passos:
 
 A = np.array([])#a
@@ -19,7 +19,7 @@ A[4]=100#c
 for i in range(6):#d
     print (A[i])
     i+=1
-"""
+
 """
 #2.Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores lidos.
 num = np.array([])
