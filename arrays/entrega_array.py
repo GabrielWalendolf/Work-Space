@@ -145,7 +145,7 @@ print("Vetor B:", B)
 print("Vetor C (intercalado):", C)
 """
 """
-#16.Uma escola de samba recebeu como pontos pela alegoria os seguintes 5 valores inclusos no vetor Notas = [9.9, 9.7, 9.8, 10, 10]. Lembrando que a nota mais alta e a nota mais baixa são descartadas. Faça um programa que calcule a média final do quesito.
+#17.Uma escola de samba recebeu como pontos pela alegoria os seguintes 5 valores inclusos no vetor Notas = [9.9, 9.7, 9.8, 10, 10]. Lembrando que a nota mais alta e a nota mais baixa são descartadas. Faça um programa que calcule a média final do quesito.
 Notas = np.array([9.9, 9.7, 9.8, 10, 10])
 
 nota_max = np.max(Notas)
