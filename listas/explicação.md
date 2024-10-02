@@ -1,6 +1,5 @@
-### Explicação sobre oque são as listas em python
-## Listas
-Listas sao conjuntos ordenados de elementos, podem ser compostos por qualquer tipo de dado,
+# Explicação sobre oque são as listas em python
+    #Listas sao conjuntos ordenados de elementos, podem ser compostos por qualquer tipo de dado,
 incluindo strings, numeros, booleanos, outras listas, etc. As listas sao mutaveis, ou seja,
 podem ser alteradas apos sua criacao.
 
