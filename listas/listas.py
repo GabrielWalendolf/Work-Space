@@ -1,8 +1,13 @@
 # Listas
 #Exercicio dia 30/09/2024
 #1.Faça um programa para ler e imprimir uma matriz 2 × 4 de números inteiros.
-mat_2x4=[[1,2,3,4],[5,6,7,8]]
-print(mat_2x4)
+mat_2X4 = [[0,0,0,0],[0,0,0,0]]
+for i in range(2):
+    for j in range(4):
+        a = int(input("digite um valor: "))
+        mat_2X4[i][j]=a
+
+print(mat_2X4)
 #2.Dada a seguinte matriz, calcule:
 
 #1   2   3   4  
