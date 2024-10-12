@@ -36,6 +36,7 @@ def row_sum_odd_numbers(n):
     return sum(piramide[-1])
 print(row_sum_odd_numbers(n))
 """
+"""
 names = ['Peter']
 def likes(names):
     if len(names) == 0:
@@ -49,3 +50,16 @@ def likes(names):
     else:
         return (f'{names[0]}, {names[1]} and {len(names)-2} others like this')
 print(likes(names))
+"""
+
+st=str(input("digite uma string: "))
+
+def is_pangram(st):#verifica se uma string e um pangrama
+    if len(st) < 26:#verifica se a string tem mais de 26 letras
+        return False
+    st = st.lower()#transforma a string em minuscula
+    for i in range(97,123):#a-z
+        if chr(i) not in st:#verifica se a letra não existe na string
+            return False
+    return True
+print(is_pangram(st))
