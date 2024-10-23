@@ -22,3 +22,13 @@ def fibonacci(n):
 
 print(fibonacci(6))
 """
+"""
+#exemplo de função recursiva utilizando soma
+def soma(n):
+    if n == 1:
+        return 1
+    else:
+        return n + soma(n-1)
+
+print(soma(5))
+"""
