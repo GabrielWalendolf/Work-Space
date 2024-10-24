@@ -10,29 +10,48 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="custom.css" />
   </head>
+<!--
+
+-->
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <label for="carro">Marca</label>
-          <input type="text" id="carro" class="form-control" />
-        </div>
+    <!-- Header -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <!-- Logo e Gabriel Walendolf -->
+          <a class="navbar-brand" href="#">
+              <img src="https://ct.mob0.com/Previews/4623636111.png" alt="Logo" width="120" height="30" class="d-inline-block align-text-top">
+              Gabriel Walendolf
+          </a>
+          <!-- Botão para mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Itens da Navbar -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                  <!-- Dropdown Projetos -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Projetos
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Python</a></li>
+                          <li><a class="dropdown-item" href="#">Jogos</a></li>
+                          <li><a class="dropdown-item" href="#">Estatística</a></li>
+                          <li><a class="dropdown-item" href="#">Linguagem R</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
       </div>
-      <div class="row">
-        <div class="col-md-5">
-          <label for="carro">Cor</label>
-          <input type="text" id="cor" class="form-control" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-          <label for="carro">Ano</label>
-          <input type="text" id="ano" class="form-control" />
-        </div>
-      </div>
-      <button onclick="carregarDados()" class="btn btn-primary">Teste</button>
-    </div>
+  </nav>
+
+    <!-- Body -->
+
+    <!-- Footer -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
