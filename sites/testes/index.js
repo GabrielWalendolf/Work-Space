@@ -31,7 +31,7 @@ function comprar_clique() {
   if (cookie >= 10) {
     // Verifica se há cookie suficientes
     cookie -= 10;
-    cliques += 0.2; // Aumenta o clique em 0.2 a cada compra
+    cliques += 0.1; // Aumenta o clique em 0.2 a cada compra
     contadorElemento.textContent = cookie.toFixed(1);
   } else {
     alert("Cookies insuficientes!");
