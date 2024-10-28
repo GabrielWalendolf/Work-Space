@@ -54,12 +54,12 @@ print(likes(names))
 
 st=str(input("digite uma string: "))
 
-def is_pangram(st):#verifica se uma string e um pangrama
-    if len(st) < 26:#verifica se a string tem mais de 26 letras
+def is_pangram(st):#//verifica se uma string e um pangrama
+    if len(st) < 26:#?verifica se a string tem mais de 26 letras
         return False
-    st = st.lower()#transforma a string em minuscula
-    for i in range(97,123):#a-z
-        if chr(i) not in st:#verifica se a letra não existe na string
+    st = st.lower()#?transforma a string em minuscula
+    for i in range(97,123):#?a-z
+        if chr(i) not in st:#?verifica se a letra não existe na string
             return False
     return True
 print(is_pangram(st))

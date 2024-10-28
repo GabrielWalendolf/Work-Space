@@ -1,4 +1,8 @@
 agora deve carregar talvez?
-# testes
+### Better Comments utilizações
 
-<!-- -->
+<!--! INFORMAÇÃO IMPORTANTE-->
+<!--? ANOTAÇÃO SOBRE FUNCIONALIDADES-->
+<!--TODO ANOTAÇÃO DE COISAS PARA IMPLEMENTAR -->
+<!--*Titulos de informações-->
+<!--//Comentário ou código retirado-->
