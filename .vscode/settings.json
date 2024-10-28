@@ -1,5 +1,76 @@
 {
-    "livePreview.defaultPreviewPath": "/sites/site_pet/index.html",
-    "files.autoSave": "onWindowChange",
-    "editor.fontLigatures": false
+    // ### Tema e Ícones do VSCode ###
+    
+    // Define o tema visual do editor
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",        
+    // Define o tema de ícones do VSCode
+    "workbench.iconTheme": "material-icon-theme",          
+
+    // ### Configurações de Edição e Exibição ###
+
+    // Ativa a edição vinculada (edita as tags de abertura e fechamento simultaneamente)
+    "editor.linkedEditing": true,
+    // Desativa o recurso de "sticky scroll", que fixa cabeçalhos na rolagem
+    "editor.stickyScroll.enabled": false,
+    // Exibe o destaque da linha ativa na barra lateral
+    "editor.renderLineHighlight": "gutter",    
+    // Define o espaçamento entre linhas do editor
+    "editor.lineHeight": 1.8,
+    // Adiciona guias verticais para lembrar de quebrar linhas em colunas específicas
+    "editor.rulers": [80, 120],                
+    // Ativa ligaduras nas fontes
+    "editor.fontLigatures": true,
+    // Oculta as barras de rolagem verticais e horizontais
+    "editor.bracketPairColorization.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    // Controla a forma como o conteúdo do editor é quebrado
+    "editor.wordWrap": "wordWrapColumn",              
+    // Define a renderização de espaços em branco no editor
+    "editor.renderWhitespace": "none",         
+
+    // ### Configurações de Fontes ###
+
+    // Define a família de fontes do editor
+    "editor.fontFamily": "JetBrains Mono",
+    
+
+    // ### Configurações de Startup e Arquivos ###
+
+    // Controla o comportamento ao abrir o VSCode
+    "workbench.startupEditor": "none",          
+    // Define o comportamento para associar arquivos Python
+    "workbench.editorAssociations": {
+        "*.py": "default"                       
+    },
+    // Controla o salvamento automático dos arquivos
+    "files.autoSave": "onFocusChange",                               
+
+    // ### Configurações de C/C++ e Python ###
+
+    // Define o caminho padrão do compilador C++
+    "C_Cpp.default.compilerPath": "d:\\Arquivos\\C++Tester\\helloworld.cpp",
+    // Define o caminho do interpretador Python
+    "python.defaultInterpreterPath": "D:\\Users\\gabri\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+
+    // ### Segurança e Outros Plugins ###
+
+    // Define comportamento para arquivos não confiáveis
+    "security.workspace.trust.untrustedFiles": "open",  
+    // Habilita importações automáticas experimentais
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"  
+    },
+    "codeium.enableCodeLens": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "editor.cursorBlinking": "expand",
+    "editor.fontVariations": false,
+    "apc.font.family": "Inter",
+    "window.newWindowProfile": "Padrão",
+    "github.experimental.multipleAccounts": true
 }
