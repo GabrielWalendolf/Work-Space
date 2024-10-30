@@ -2,7 +2,7 @@
   // ### Tema e Ícones do VSCode ###
 
   // Define o tema visual do editor
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.colorTheme": "Level Up",
   // Define o tema de ícones do VSCode
   "workbench.iconTheme": "material-icon-theme",
 
