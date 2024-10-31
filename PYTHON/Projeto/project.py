@@ -1,16 +1,16 @@
 import numpy as np
 import random
 
-# Definição das vagas para cada setor
+#INFO: Definição das vagas para cada setor
 setores = ['A', 'B', 'C']
 vagas_por_setor = 5
 
-# Inicialização dos arrays para armazenar as vagas
+#INFO: Inicialização dos arrays para armazenar as vagas
 vagas = {}
 for setor in setores:
     vagas[setor] = np.array([True] * vagas_por_setor)
 
-# Função para ocupar vaga no estacionamento
+#INFO: Função para ocupar vaga no estacionamento
 def ocupar_vaga(placa):
     for setor in setores:
         vagas_livres = np.where(vagas[setor])[0]
@@ -21,7 +21,7 @@ def ocupar_vaga(placa):
             return
     print("Não há vagas disponíveis")
 
-# Função para liberar vaga
+#INFO: Função para liberar vaga
 def liberar_vaga(placa):
     for setor in setores:
         for i, vaga in enumerate(vagas[setor]):
@@ -31,13 +31,13 @@ def liberar_vaga(placa):
                 return
     print("Veículo não encontrado")
 
-# Função para exibir as vagas disponíveis no estacionamento
+#INFO: Função para exibir as vagas disponíveis no estacionamento
 def exibir_vagas():
     for setor in setores:
         vagas_livres = np.where(vagas[setor])[0]
         print(f"Setor {setor}: {len(vagas_livres)} vagas disponíveis")
 
-# Função para consultar veículo estacionado
+#INFO: Função para consultar veículo estacionado
 def consultar_veiculo(placa):
     for setor in setores:
         for i, vaga in enumerate(vagas[setor]):
@@ -46,7 +46,7 @@ def consultar_veiculo(placa):
                 return
     print("Veículo não encontrado")
 
-# Fnção para teste do sistema
+#INFO: Fnção para teste do sistema
 def teste_sistema():
     placas = []
     while True:
@@ -54,8 +54,7 @@ def teste_sistema():
         print("2 - Liberar vaga")
         print("3 - Exibir vagas")
         print("4 - Consultar veículo")
-        print("5 - Adicionar veículo")
-        print("6 - Sair do sistema")
+        print("5 - Sair do sistema")
         opcao = int(input("Digite a opção desejada: "))
         if opcao == 1:
             placa = input("Digite a placa do veículo: ")
@@ -83,5 +82,5 @@ def teste_sistema():
         else:
             print("Opção inválida!")
 
-# Execução do programa
+#INFO: Execução do programa
 teste_sistema()
