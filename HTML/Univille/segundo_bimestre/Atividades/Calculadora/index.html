@@ -15,14 +15,19 @@
         <h2>Calculadora Gamer</h2>
       </div>
       <!--INFO: Input da calculadora-->
-      <div class="p-4 input-group">
+      <!-- <div class="p-4 input-group">
         <input
           type="text"
           class="form-control text-end"
           style="max-width: 300px"
           id="vizor"
         />
+      </div> -->
+      <div class="input-group mb-3">
+        <input type="text" class="form-control text-end" id="vizor">
+        <button class="btn btn-outline-secondary" type="button" id="C">C</button>
       </div>
+      <hr class="divider">
       <!--INFO:Botões da calculadora-->
       <div class="p-2 row">
         <div class="col">
@@ -72,8 +77,8 @@
         </div>
         <div class="col">
           <button
-            onclick="pegar_valor('+')"
-            id="+"
+            onclick="pegar_valor('/')"
+            id="/"
             type="button"
             class="btn btn-primary"
             style="
@@ -82,7 +87,7 @@
               --bs-btn-font-size: 0.85rem;
             "
           >
-            +
+            /
           </button>
         </div>
       </div>
@@ -134,8 +139,8 @@
         </div>
         <div class="col">
           <button
-            onclick="pegar_valor('-')"
-            id="-"
+            onclick="pegar_valor('*')"
+            id="*"
             type="button"
             class="btn btn-primary"
             style="
@@ -144,7 +149,7 @@
               --bs-btn-font-size: 0.85rem;
             "
           >
-            -
+            *
           </button>
         </div>
       </div>
@@ -196,6 +201,53 @@
         </div>
         <div class="col">
           <button
+            onclick="pegar_valor('-')"
+            id="-"
+            type="button"
+            class="btn btn-primary"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 0.7rem;
+              --bs-btn-font-size: 0.85rem;
+            "
+          >
+            -
+          </button>
+        </div>
+      </div>
+      <div class="p-2 row">
+        <div class="col">
+          <button
+            onclick="pegar_valor('0')"
+            id="0"
+            type="button"
+            class="btn btn-primary"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 0.7rem;
+              --bs-btn-font-size: 0.85rem;
+            "
+          >
+            0
+          </button>
+        </div>
+        <div class="col">
+          <button
+            onclick="pegar_valor('.')"
+            id="."
+            type="button"
+            class="btn btn-primary"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 0.7rem;
+              --bs-btn-font-size: 0.85rem;
+            "
+          >
+            .
+          </button>
+        </div>
+        <div class="col">
+          <button
             onclick="pegar_valor('=')"
             id="="
             type="button"
@@ -207,6 +259,21 @@
             "
           >
             =
+          </button>
+        </div>
+        <div class="col">
+          <button
+            onclick="pegar_valor('+')"
+            id="+"
+            type="button"
+            class="btn btn-primary"
+            style="
+              --bs-btn-padding-y: 0.5rem;
+              --bs-btn-padding-x: 0.7rem;
+              --bs-btn-font-size: 0.85rem;
+            "
+          >
+            +
           </button>
         </div>
       </div>
