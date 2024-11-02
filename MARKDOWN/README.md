@@ -1,4 +1,3 @@
-agora deve carregar talvez?
 ### Better Comments utilizações
 
 <!--IDEA: INFORMAÇÃO IMPORTANTE-->
