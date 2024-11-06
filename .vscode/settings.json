@@ -2,7 +2,7 @@
   // ### Tema e Ícones do VSCode ###
 
   // Define o tema visual do editor
-  "workbench.colorTheme": "Brave Contrast (rainglow)",
+  "workbench.colorTheme": "Coffee (rainglow)",
   // Define o tema de ícones do VSCode
   "workbench.iconTheme": "material-icon-theme",
 
